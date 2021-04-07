@@ -185,11 +185,6 @@ body {
 
 /* main страницы Портфолио */
 /* Filters */
-.projects .category {
-  font-size: 16px;
-  line-height: 1.87;
-  color: var(--primary-text-color);
-}
 
 .button-secondary {
   font-weight: 500;
@@ -203,4 +198,11 @@ body {
 .button-secondary:focus {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
+}
+
+/* Названия категорий */
+.projects .category {
+  font-size: 16px;
+  line-height: 1.87;
+  color: var(--primary-text-color);
 }
