@@ -5,7 +5,6 @@
   --primary-white-color: #ffffff;
   --footer-background-color: #2f303a;
 
-  --primary-background-color: #e5e5e5;
   --hero-bg: #2f303a;
   --team-bg: #f5f4fa;
 
@@ -17,7 +16,7 @@ body {
   font-size: 14px;
   letter-spacing: 0.03em;
 
-  background-color: var(--primary-background-color);
+  background-color: var(--primary-white-color);
   color: var(--primary-text-color);
 }
 
@@ -74,7 +73,7 @@ body {
 }
 
 /* Контакты */
-.contacts-link {
+.contacts .link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -82,8 +81,8 @@ body {
   color: inherit;
   text-decoration: none;
 }
-.contacts-link:hover,
-.contacts-link:focus {
+.contacts .link:hover,
+.contacts .link:focus {
   color: var(--accent-color);
 }
 
@@ -213,7 +212,8 @@ body {
 }
 
 .button-secondary:hover,
-.button-secondary:focus {
+.button-secondary:focus,
+.button-secondary.current {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
 }
